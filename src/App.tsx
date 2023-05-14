@@ -10,9 +10,7 @@ export function App() {
           </li>
         </ul>
       </nav>
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <footer></footer>
     </>
   );
