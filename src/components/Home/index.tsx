@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Link, NavLink, useLoaderData } from "react-router-dom";
 import { IData } from "./types";
-import "./home.scss";
+import "./Home.scss";
 
 export function Home() {
   const data = useLoaderData() as IData;

@@ -1,15 +1,10 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { Navbar } from "./components/Navbar";
 
 export function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <Outlet />
       <footer></footer>
     </>
